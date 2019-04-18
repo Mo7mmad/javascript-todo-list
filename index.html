@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Todo List</title>
+  </head>
+  <body>
+
+    <div class="moJaffer">
+      <a href="https://mohammed-jaffer.blogspot.com/">
+        <img src="https://lh3.googleusercontent.com/1z6nB9VGU7AwzmyKk1IHeqihB_V4M3l3CfgkxazDh2M1FEakw4uKt-Fam4MqQlNh5UtadqjZMDdWUTyOrg=w247-h68-rw" alt="Mohammed Jaffer">
+        <span>mojafer.me</span>
+      </a>
+    </div>
+
+    <div class="container">
+
+      <form id="form">
+        <input type="text" name="text" id="newTodo" placeholder="اكتب النص هنا...">
+        <span id="error"></span>
+        <button type="submit" name="button" id="submitButton">
+          <i class="far fa-calendar-plus"></i>
+           إضافة
+        </button>
+      </form>
+
+      <h4 id="emptyMessage">لا يوجد لديك مهام</h4>
+
+      <ul id="list">
+        <li>
+          زيارة مدونة محمد جعفر
+          <i class="fas fa-trash delete"></i>
+        </li>
+        <li class="checked">
+          الذهاب إلى التسوق
+          <i class="fas fa-trash delete"></i>
+        </li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="./index.js"> </script>
+  </body>
+</html>
